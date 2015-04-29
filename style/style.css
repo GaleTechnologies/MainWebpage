@@ -90,8 +90,8 @@ ol li
 { margin-left: auto; 
   margin-right: auto;}
 
-#header
-{ background: #404040;
+#header { 
+  background: #404040;
   border-bottom: 1px solid #FFF;
   height: 250px;}
 
@@ -171,8 +171,12 @@ ul#menu li a
   border-right: 1px solid #6A6A6A;
   background: transparent;} 
 
-ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
-{ color: #FFF;}
+ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover {
+  color: #FFF;
+  border-top: 1px solid #CDC090;
+  }
+
+
 
 #site_content
 { width: 845px;
